@@ -1,4 +1,5 @@
-//Building a module
-//Require brings the code from another file
-const greet = require('./greet')
-greet()
+//Require another module
+const billingual = require('./greetings')
+
+billingual.english()
+billingual.spanish()

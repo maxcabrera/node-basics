@@ -1,5 +1,5 @@
 
- const a = require('./greet');
+const a = require('./greetings');
 console.log(a)
 
 

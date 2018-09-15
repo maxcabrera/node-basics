@@ -23,4 +23,7 @@ billingual.spanish()
     module.exports = new Person();
     //Using this will only create 1 instance of the object
     //regarless of the amount of times required
+
+    //To avoid this
+    module.exports = Person
  **/

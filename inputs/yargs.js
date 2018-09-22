@@ -1,10 +1,8 @@
+/** Yargs returns an object with all the values passed
+ * in the command line
+ */
 const yargs  = require('yargs')
 
 const argv = yargs.argv
 console.log('argv', argv)
 
-const a = {
-  _: [ 'list' ],
-  tittle: 'Welcome to the jungle',
-  '$0': 'inputs/yargs'
-}

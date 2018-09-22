@@ -42,9 +42,17 @@ function ways(n) {
   return ways(n-1) + ways(n-2)
 }
 
+
+
 console.log('Ways:')
 
-console.log(ways(11))
+console.log('1',ways(1))
+console.log('2',ways(2))
+console.log('3',ways(3))
+console.log('4',ways(4))
+console.log('5',ways(5))
+console.log('6',ways(6))
+console.log('7',ways(7))
 
 function betterWays(n) {
   if(n < 2) return 1

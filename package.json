@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/maxcabrera/node-basics/issues"
   },
-  "homepage": "https://github.com/maxcabrera/node-basics#readme"
+  "homepage": "https://github.com/maxcabrera/node-basics#readme",
+  "dependencies": {
+    "yargs": "^12.0.2"
+  }
 }

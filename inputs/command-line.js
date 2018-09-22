@@ -1,3 +1,4 @@
+/** Run this with node command-line.js list **/
 const command = (process.argv[2]) ? process.argv[2] : false
 console.log('process.argv',process.argv)
 
